@@ -3,4 +3,5 @@ Rails.application.routes.draw do
 	get 'hello/index', to: 'hello#index'
 	get 'hello/view', to: 'hello#view'
 	get 'hello/list', to: 'hello#list'
+	get 'hello/app_var', to: 'hello#app_var'
 end
