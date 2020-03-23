@@ -9,4 +9,10 @@ Rails.application.routes.draw do
 	get 'hello/view', to: 'hello#view'
 	get 'hello/list', to: 'hello#list'
 	get 'hello/app_var', to: 'hello#app_var'
+
+	get 'view/keyword'
+	post 'keyword/search'
+	
+	get 'view/form_tag'
+	post 'view/create'
 end
